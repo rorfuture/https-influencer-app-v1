@@ -6,7 +6,6 @@ class AuthController < ApplicationController
       email = omniauth_response['info'].present? ? omniauth_response['info']['email'] : nil
       password = SecureRandom.hex(1) + '' + SecureRandom.hex(2).upcase + '' + SecureRandom.hex(3).upcase + '' + SecureRandom.hex(2)
       if (!current_user)
-        debugger
         user = User.new(email: email, password: password)
         user.save
       end

@@ -1,8 +1,8 @@
 require "test_helper"
 
 class PagesControllerTest < ActionDispatch::IntegrationTest
-  test "should get indeex" do
-    get pages_indeex_url
+  test "should get index" do
+    get pages_index_url
     assert_response :success
   end
 

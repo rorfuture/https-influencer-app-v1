@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'pages/indeex'
+  get 'pages/index'
   get 'pages/about'
   get 'pages/contact'
   get 'pages/tc'

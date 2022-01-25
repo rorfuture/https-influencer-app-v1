@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  def indeex
+  def index
   end
 
   def about

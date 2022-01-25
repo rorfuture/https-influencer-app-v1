@@ -58,3 +58,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'dotenv-rails', groups: [:development, :test]
 
 gem 'devise'
+
+gem 'omniauth', '~> 1.9', '>= 1.9.1'
+gem 'omniauth-facebook', '~> 9.0'
